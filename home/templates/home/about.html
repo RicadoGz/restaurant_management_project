@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-    <!-- 定义文档使用的字符编码 -->
     <meta charset="UTF-8">
 
-    <!-- 设置视口，让页面在移动设备上正常显示 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- 网页的标题，会显示在浏览器的标签页上 -->
-    <title>project</title>
+    <title>Restaurant Homepage</title>
 </head>
-<body>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333; text-align: center; margin: 0; padding: 40px;">
 
-    <!-- 页面的一级标题 -->
-    <h1>welcome to my page </h1>
+    <div style="max-width: 800px; margin: auto; background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-    <!-- 这是一个段落 -->
-    <p>we have those resturant {{ profile.name }}</p>
+        <h1 style="color: #2c3e50; margin-bottom: 15px;">Welcome to My Page</h1>
+
+        <p style="font-size: 1.2em; color: #555;">
+            We have this restaurant: 
+            <strong style="color: #e74c3c;">{{ profile.name }}</strong>
+        </p>
+
+    </div>
 
 </body>
 </html>
