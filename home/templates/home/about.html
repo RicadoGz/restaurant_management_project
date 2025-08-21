@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Restaurant Homepage</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
 </head>
-<body style="font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333; text-align: center; margin: 0; padding: 40px;">
+<body>
+    <main class="container">
+        
+        <article>
+            <header>
+                <h1 style="text-align: center;">Welcome!</h1>
+            </header>
+            <p style="text-align: center; font-size: 1.2rem;">
+                We are proud to feature this restaurant: 
+                <strong>{{ profile.name }}</strong>
+            </p>
+        </article>
 
-    <div style="max-width: 800px; margin: auto; background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-
-        <h1 style="color: #2c3e50; margin-bottom: 15px;">Welcome to My Page</h1>
-
-        <p style="font-size: 1.2em; color: #555;">
-            We have this restaurant: 
-            <strong style="color: #e74c3c;">{{ profile.name }}</strong>
-        </p>
-
-    </div>
-
+    </main>
 </body>
 </html>
