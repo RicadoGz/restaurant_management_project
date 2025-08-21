@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page not found (404)</title>
+    <style>
+        /* 整个页面的样式 */
+        body {
+            background-color: #2ecc71; /* 一个比较柔和的绿色 */
+            color: #ffffff; /* 白色文字，在绿色背景上更清晰 */
+            font-family: Arial, sans-serif; /* 使用干净的字体 */
+            text-align: center; /* 所有文字居中 */
+            display: flex; /* 使用 Flexbox 布局 */
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+            height: 100vh; /* 让 body 占满整个视口高度 */
+            margin: 0; /* 移除默认的 body 边距 */
+        }
+
+        /* 容器样式，用于包裹内容 */
+        .container {
+            max-width: 600px;
+        }
+
+        /* 大标题 "404" 的样式 */
+        h1 {
+            font-size: 10em; /* 非常大的字体尺寸 */
+            margin: 0; /* 移除标题的默认边距 */
+        }
+
+        /* 副标题 "页面未找到" 的样式 */
+        p {
+            font-size: 1.5em; /* 较大的字体尺寸 */
+        }
+
+        /* 返回主页链接的样式 */
+        a {
+            color: #ffffff; /* 链接也是白色 */
+            text-decoration: underline; /* 添加下划线，让它看起来像个链接 */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <p>page not found</p>
+        <p><a href="/api/about">return home </a></p>
+    </div>
+</body>
+</html>
